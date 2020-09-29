@@ -28,8 +28,8 @@
     "plugins": {
       "cordova-plugin-whitelist": {},
       "cordova-plugin-googleplus": {
-        "": "",
-        "": ""
+        "REVERSED_CLIENT_ID": "",
+        "WEB_APPLICATION_CLIENT_ID": ""
       }
     }
   }
