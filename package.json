@@ -28,8 +28,8 @@
     "plugins": {
       "cordova-plugin-whitelist": {},
       "cordova-plugin-googleplus": {
-        "com.googleusercontent.apps.437581889525-s45ra27kiu565qn3oot7h28vp1qfkq51": "",
-        "437581889525-s45ra27kiu565qn3oot7h28vp1qfkq51.apps.googleusercontent.com": ""
+        "": "",
+        "": ""
       }
     }
   }
