@@ -11,7 +11,7 @@
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <plugin name="cordova-plugin-googleplus" source="npm">
         <variable name="REVERSED_CLIENT_ID" value="" />
-        <variable name="WEB_APPLICATION_ID" value="" />
+        <variable name="WEB_APPLICATION_CLIENT_ID" value="" />
     </plugin>
     <access origin="*" />
     <allow-intent href="http://*/*" />
