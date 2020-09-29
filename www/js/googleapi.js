@@ -11,7 +11,7 @@ var clickLoginButton = function () {
         'webClientId': clientId,
         'offline': true,
         'scopes': scope,
-        'redirect_uri': redirect_uri,
+        'redirect_uri': redirect_uri="",
     },
         function (obj) {
             // 認証
