@@ -33,7 +33,7 @@ var dispTasksList = function (data) {
 /**
  * タスク追加
  */
-var addTask = function () {// 入力値の取得
+var insertTask = function () {// 入力値の取得
   item = document.getElementById('input_task_title').value;
 
   if (!accessToken) {
@@ -79,11 +79,10 @@ var createInsertDialog = function () {
 
   var dialog = document.getElementById('insert-task');
 
-  // TODO
   if(dialog){
     dialog.show();
   }else{
-    ons.createElement('insert_task_dialog.html', {appent: true})
+    ons.createElement('insert_task_dialog.html', {append: true})
       .then(function(dialog){
         dialog.show();
       });
