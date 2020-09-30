@@ -16,6 +16,8 @@ var dispTasksList = function (data) {
     if (data.items[i].status === "needsAction") {
       // タスクのタイトルを取得
       var taskTitle = data.items[i].title;
+      // タスクの期限を取得
+      //var taskLimit = data.items[i].;
       // タスクのタイトルがあるとき
       if (taskTitle) {
         // 空の<ons-list-item>を作成
