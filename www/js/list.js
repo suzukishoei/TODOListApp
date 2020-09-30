@@ -16,13 +16,20 @@ var dispTasksList = function (data) {
     if (data.items[i].status === "needsAction") {
       // タスクのタイトルを取得
       var taskTitle = data.items[i].title;
-
       // タスクのタイトルがあるとき
       if (taskTitle) {
         // 空の<ons-list-item>を作成
         var elem_list_item = document.createElement('ons-list-item');
+              
         // <ons-list-item>のHTML要素にタイトル名を追加
-        elem_list_item.innerHTML = taskTitle;
+        elem_list_item.innerHTML =  
+        //チェックボックスを追加
+        `<label class="left">
+        <ons-checkbox input-id="check-1"></ons-checkbox>
+      </label>
+      <label for="check-1" class="center">`
+          + taskTitle; +
+        `</label>`;        
         // <ons-list-item>タスクをリストに追加
         elem_list.appendChild(elem_list_item);
       }
